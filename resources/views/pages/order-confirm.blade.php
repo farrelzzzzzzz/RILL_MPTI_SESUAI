@@ -4,10 +4,6 @@
 
 <section class="order-hero">
 
-    <div class="breadcrumb">
-        Ry Travel / Order
-    </div>
-
     <h1>FORM PEMESANAN</h1>
 
 </section>
