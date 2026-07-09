@@ -250,7 +250,7 @@
 
     </section>
 
-    <a href="#" class="wa-button">
+    <a href="https://wa.me/6283866371952" class="wa-button" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
         Tanya Admin
     </a>

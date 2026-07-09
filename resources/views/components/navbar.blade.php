@@ -1,8 +1,8 @@
 <nav class="navbar">
 
-    <div class="logo">
-        <img src="{{ asset('images/logo.png') }}">
-    </div>
+    <a href="{{ route('about') }}" class="logo">
+        <img src="{{ asset('images/logo.png') }}" alt="RY Travel Logo">
+    </a>
 
     <ul class="nav-links">
         <li><a class="nav-link" href="{{ route('home') }}">Home</a></li>
@@ -14,4 +14,3 @@
 
 
 </nav>
-
