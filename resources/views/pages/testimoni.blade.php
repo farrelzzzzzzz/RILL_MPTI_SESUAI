@@ -99,7 +99,7 @@
                     <span>5.0</span>
                 </div>
 
-                <img src="{{ asset('images/testimoni1.jpg') }}" alt="Testimoni">
+                <img src="{{ asset('images/testimoni2.jpg') }}" alt="Testimoni">
 
                 <div class="testi-detail">
 
@@ -110,8 +110,7 @@
                     <p><i class="fa-solid fa-location-dot"></i> Bantul → YIA</p>
 
                     <p class="quote">
-                        "Admin fast respon, driver tepat waktu dan
-                        sangat membantu selama perjalanan."
+                        "Terima kasih kak, sudah diantar dengan selamat sampai tujuan, sat set sat set tau" sampai"
                     </p>
 
                 </div>
@@ -130,7 +129,7 @@
                     <span>5.0</span>
                 </div>
 
-                <img src="{{ asset('images/testimoni1.jpg') }}" alt="Testimoni">
+                <img src="{{ asset('images/testimoni3.jpg') }}" alt="Testimoni">
 
                 <div class="testi-detail">
 
@@ -141,8 +140,8 @@
                     <p><i class="fa-solid fa-location-dot"></i> Sleman → YIA</p>
 
                     <p class="quote">
-                        "Mobil bersih, AC dingin, driver sopan dan
-                        perjalanan terasa nyaman."
+                        "haloo kak, sudah di anter dgn aman dan nyaman, terima kasih banyak yaa kak, driver nya jga okee
+                        bgtt"
                     </p>
 
                 </div>

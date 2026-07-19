@@ -179,11 +179,11 @@
         </video>
 
         <video controls class="reels-video">
-            <source src="{{ asset('videos/travel1.mp4') }}" type="video/mp4">
+            <source src="{{ asset('videos/travel2.mp4') }}" type="video/mp4">
         </video>
 
         <video controls class="reels-video">
-            <source src="{{ asset('videos/travel1.mp4') }}" type="video/mp4">
+            <source src="{{ asset('videos/travel3.mp4') }}" type="video/mp4">
         </video>
 
     </div>
