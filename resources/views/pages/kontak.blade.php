@@ -31,7 +31,53 @@
 
                 <h2>Operational Hours</h2>
 
-                <p>NANTI</p>
+                <ul class="operational-list">
+
+                    <li>
+                        <span>Senin</span>
+                        <strong>24 Jam</strong>
+                    </li>
+
+                    <li>
+                        <span>Selasa</span>
+                        <strong>24 Jam</strong>
+                    </li>
+
+                    <li>
+                        <span>Rabu</span>
+                        <strong>24 Jam</strong>
+                    </li>
+
+                    <li>
+                        <span>Kamis</span>
+                        <strong>24 Jam</strong>
+                    </li>
+
+                    <li>
+                        <span>Jumat</span>
+                        <strong>24 Jam</strong>
+                    </li>
+
+                </ul>
+
+                <div class="weekend-box">
+
+                    <h3>
+                        <i class="fa-solid fa-calendar-week"></i>
+                        Weekend Service
+                    </h3>
+
+                    <div class="weekend-item">
+                        <span>Sabtu</span>
+                        <strong>24 Jam</strong>
+                    </div>
+
+                    <div class="weekend-item">
+                        <span>Minggu</span>
+                        <strong>24 Jam</strong>
+                    </div>
+
+                </div>
 
             </div>
 

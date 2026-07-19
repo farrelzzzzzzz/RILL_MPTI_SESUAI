@@ -1957,6 +1957,125 @@ footer {
 }
 
 }
+/* ===========================
+   OPERATIONAL HOURS
+=========================== */
+
+.operational-list{
+    list-style:none;
+    margin-top:20px;
+    padding:25px;
+    background:#fff;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.operational-list li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+    border-bottom:1px solid #ececec;
+}
+
+.operational-list li:last-child{
+    border-bottom:none;
+}
+
+.operational-list span{
+    font-size:20px;
+    font-weight:600;
+    color:#333;
+}
+
+.operational-list strong{
+    background:#d60000;
+    color:#fff;
+    padding:8px 20px;
+    border-radius:30px;
+    font-size:16px;
+    font-weight:700;
+}
+
+/* ===========================
+   WEEKEND BOX
+=========================== */
+
+.weekend-box{
+
+    margin-top:30px;
+    padding:25px;
+
+    background:linear-gradient(135deg,#d60000,#ff3d3d);
+
+    border-radius:20px;
+
+    color:#fff;
+
+    box-shadow:0 15px 35px rgba(214,0,0,.3);
+
+}
+
+.weekend-box h3{
+
+    margin-bottom:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+.weekend-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.25);
+
+}
+
+.weekend-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.weekend-item span{
+
+    font-size:20px;
+
+    font-weight:600;
+
+}
+
+.weekend-item strong{
+
+    background:#fff;
+
+    color:#d60000;
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    font-size:16px;
+
+    font-weight:700;
+
+}
+
 /* =========================================================
    RESPONSIVE / MOBILE LAYOUT
    Tambahkan file ini SETELAH file CSS utama (link kedua di
