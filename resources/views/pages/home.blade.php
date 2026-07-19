@@ -49,7 +49,7 @@
             <div class="field">
                 <label>Jumlah Penumpang</label>
 
-                <input type="number" name="jumlah_penumpang" min="1" max="14" placeholder="1 Orang" required>
+                <input type="number" name="jumlah_penumpang" min="1" max="10" placeholder="1 Orang" required>
             </div>
 
             <button type="submit" class="order-btn">
@@ -186,9 +186,9 @@
 
             jumlah.addEventListener("input", function () {
 
-                if (this.value > 14) {
-                    this.value = 14;
-                    alert("Maksimal 14 penumpang.");
+                if (this.value > 10 ){
+                    this.value = 10;
+                    alert("Maksimal 10 penumpang.");
                 }
 
                 if (this.value < 1) {

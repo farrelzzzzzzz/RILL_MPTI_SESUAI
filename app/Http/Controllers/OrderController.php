@@ -27,7 +27,7 @@ class OrderController extends Controller
             'lokasi_tujuan'     => 'required',
             'jam_landing'       => 'required',
             'jam_jemput'        => 'required',
-            'jumlah_penumpang'  => 'required',
+            'jumlah_penumpang'  => 'required|integer|min:1|max:10',
             'pembayaran'        => 'required',
         ]);
 
