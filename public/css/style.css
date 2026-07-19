@@ -1957,3 +1957,422 @@ footer {
 }
 
 }
+/* =========================================================
+   RESPONSIVE / MOBILE LAYOUT
+   Tambahkan file ini SETELAH file CSS utama (link kedua di
+   blade layout), atau copy-paste ke akhir file CSS utama.
+   Tidak mengubah HTML — hanya override untuk layar kecil.
+   ========================================================= */
+
+/* ============ TABLET (<=1024px) ============ */
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 0 30px;
+    }
+
+    .why-ry,
+    .armada-wrapper,
+    .info-area {
+        flex-wrap: wrap;
+    }
+
+    .info-left,
+    .info-map {
+        width: 100%;
+    }
+
+    .armada-item {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+/* ============ MOBILE (<=768px) ============ */
+@media (max-width: 768px) {
+
+    /* NAVBAR — sticky (bukan fixed) di mobile supaya nav-links yang
+       wrap ke bawah tidak menutupi konten. Desktop tetap fixed 80px. */
+    .navbar {
+        position: sticky;
+        top: 0;
+        height: auto;
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 12px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 18px;
+        justify-content: center;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 4px 0;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 40px 20px 60px;
+        min-height: auto;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .booking-box {
+        width: 95%;
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .booking-box input {
+        width: 100%;
+    }
+
+    .booking-box button {
+        width: 100%;
+    }
+
+    /* PROMO SLIDER */
+    .promo {
+        padding: 40px 15px;
+    }
+
+    .promo-slide {
+        width: 95%;
+        max-height: 220px;
+    }
+
+    /* CARD / LAYANAN */
+    .layanan {
+        width: 92%;
+    }
+
+    .card {
+        padding: 30px 20px;
+        margin-top: 60px;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        font-size: 26px;
+        right: 15px;
+        top: -30px;
+    }
+
+    .order-btn {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* GALLERY */
+    .gallery {
+        padding: 50px 20px;
+    }
+
+    .gallery-grid {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .gallery-grid .reels-video,
+    .box {
+        width: 100%;
+        max-width: 320px;
+        height: 380px;
+    }
+
+    /* WHATSAPP BUTTON */
+    .wa-button {
+        right: 12px;
+        bottom: 16px;
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    /* FOOTER */
+    .footer-overlay {
+        padding: 30px 6% 15px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        margin: 0 auto 20px;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+
+    .footer-social-links {
+        justify-content: center;
+    }
+
+    /* ORDER PAGE */
+    .order-hero h1 {
+        font-size: 34px;
+    }
+
+    .order-container,
+    .order-section {
+        width: 94%;
+        margin: 60px auto;
+    }
+
+    .order-header {
+        padding: 30px 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .order-header h2 {
+        font-size: 26px;
+    }
+
+    .order-card {
+        padding: 25px 20px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .order-left,
+    .order-right {
+        padding: 25px;
+    }
+
+    .double-input,
+    .payment-method,
+    .payment-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .order-progress {
+        gap: 15px;
+    }
+
+    /* ABOUT PAGE */
+    .about-hero h1 {
+        font-size: 38px;
+    }
+
+    .about-hero .breadcrumb {
+        font-size: 16px;
+    }
+
+    .about-company {
+        width: 92%;
+        margin: 50px auto;
+    }
+
+    .about-company h1 {
+        font-size: 32px;
+    }
+
+    .about-company p {
+        font-size: 16px;
+    }
+
+    .about-banner img {
+        width: 100%;
+    }
+
+    .why-grid {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .why-item i {
+        font-size: 55px;
+    }
+
+    /* FACILITY */
+    .facility {
+        padding: 50px 0;
+    }
+
+    .facility-box {
+        width: 92%;
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+
+    .facility-card {
+        padding: 15px;
+    }
+
+    /* ARMADA */
+    .armada {
+        padding: 50px 0;
+    }
+
+    .armada-wrapper {
+        gap: 40px;
+    }
+
+    .armada-item {
+        width: 100%;
+    }
+
+    /* TESTIMONI HERO / WHY-RY */
+    .testimoni-hero h1 {
+        font-size: 40px;
+    }
+
+    .why-ry {
+        width: 92%;
+        margin: 50px auto;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .why-image img {
+        width: 260px;
+    }
+
+    .why-content h1 {
+        font-size: 38px;
+    }
+
+    /* TESTIMONI CARDS */
+    .testimoni-card {
+        padding: 50px 5%;
+    }
+
+    .testimoni-card h1 {
+        font-size: 32px;
+    }
+
+    .testimoni-grid {
+        gap: 20px;
+    }
+
+    .card-testi,
+    .testi-card {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    /* OPERATIONAL / MAP */
+    .info-area {
+        width: 92%;
+        margin: 60px auto;
+        gap: 30px;
+    }
+
+    .info-box h1 {
+        font-size: 32px;
+    }
+
+    .info-map iframe {
+        height: 350px;
+    }
+
+    /* KONTAK */
+    .kontak-hero h1 {
+        font-size: 42px;
+    }
+
+    .breadcrumb {
+        width: 92%;
+        font-size: 18px;
+    }
+
+    .kontak-section {
+        width: 92%;
+        margin: 50px auto;
+    }
+
+    .kontak-info h1 {
+        font-size: 38px;
+    }
+
+    .info-card h2 {
+        font-size: 26px;
+    }
+
+    .info-card p,
+    .info-card li {
+        font-size: 16px;
+    }
+
+    .map-section {
+        width: 92%;
+        margin: 60px auto;
+    }
+
+    .map-section iframe {
+        height: 300px;
+    }
+
+    /* PAYMENT PREVIEW / CONFIRM */
+    .payment-preview {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .confirm-buttons,
+    .confirm-action {
+        flex-direction: column;
+    }
+
+    .btn-cancel,
+    .btn-confirm {
+        flex: 1 1 auto;
+    }
+}
+
+/* ============ SMALL MOBILE (<=480px) ============ */
+@media (max-width: 480px) {
+
+    .logo img {
+        width: 50px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .promo-slide {
+        max-height: 160px;
+    }
+
+    .order-hero h1,
+    .about-hero h1,
+    .kontak-hero h1 {
+        font-size: 28px;
+    }
+
+    .why-content h1,
+    .testimoni-hero h1 {
+        font-size: 28px;
+    }
+
+    .card-testi h2 {
+        font-size: 34px;
+    }
+
+    .footer-menu h2,
+    .footer-contact h2 {
+        font-size: 22px;
+    }
+
+    .gallery-grid .reels-video,
+    .box {
+        height: 320px;
+    }
+
+    .payment-card {
+        padding: 18px 10px;
+    }
+}
