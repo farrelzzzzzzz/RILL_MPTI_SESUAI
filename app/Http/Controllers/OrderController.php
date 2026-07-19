@@ -82,7 +82,7 @@ class OrderController extends Controller
             ->translatedFormat('l, d F Y');
 
         // Nomor Admin
-        $nomorAdmin = "6283866371952";
+        $nomorAdmin = "62882007380782";
 
         // Pesan WhatsApp
         $pesan  = "Terima kasih telah menghubungi *RY TOUR & TRANSPORT*.\n";
