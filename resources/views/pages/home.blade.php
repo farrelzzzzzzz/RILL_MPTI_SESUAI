@@ -85,9 +85,9 @@
     <div class="promo-slider" data-promo-slider>
 
         <div class="promo-slides">
-            <img class="promo-slide active" src="{{ asset('images/promo.png') }}" alt="Promo 1">
-            <img class="promo-slide" src="{{ asset('images/promo.png') }}" alt="Promo 2">
-            <img class="promo-slide" src="{{ asset('images/promo.png') }}" alt="Promo 3">
+            <img class="promo-slide active" src="{{ asset('images/banner1.png') }}" alt="Promo 1">
+            <img class="promo-slide" src="{{ asset('images/banner2.png') }}" alt="Promo 2">
+            <img class="promo-slide" src="{{ asset('images/banner3.png') }}" alt="Promo 3">
         </div>
 
         <div class="promo-dots">
