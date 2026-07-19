@@ -159,7 +159,7 @@
 
             <div class="info-box">
 
-                <h1>Operational Area</h1>
+                <h1>Daerah Operasional</h1>
 
                 <p>
                     Jl. Jogja Ring Road Sel. No.1, Gonjen, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa
@@ -170,7 +170,7 @@
 
             <div class="info-box">
 
-                <h1>Contact Info</h1>
+                <h1>Info Kontak</h1>
 
                 <p>0882-0073-80782</p>
                 <p>info@rytravel.com</p>

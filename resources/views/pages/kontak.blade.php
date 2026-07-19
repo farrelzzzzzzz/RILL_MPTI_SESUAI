@@ -17,7 +17,7 @@
 
             <div class="info-card reveal-left">
 
-                <h2>Head Office</h2>
+                <h2>Kantor</h2>
 
                 <p>
                     Jl. Jogja Ring Road Sel. No.1, Gonjen, Tamantirto,
@@ -29,7 +29,7 @@
 
             <div class="info-card reveal-left">
 
-                <h2>Operational Hours</h2>
+                <h2>Jam Operasional</h2>
 
                 <ul class="operational-list">
 
@@ -64,7 +64,7 @@
 
                     <h3>
                         <i class="fa-solid fa-calendar-week"></i>
-                        Weekend Service
+                        Pelayanan Weekend
                     </h3>
 
                     <div class="weekend-item">
@@ -83,7 +83,7 @@
 
             <div class="info-card reveal-left">
 
-                <h2>Contact Center</h2>
+                <h2>Kontak</h2>
 
                 <ul>
 
