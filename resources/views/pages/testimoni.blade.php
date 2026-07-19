@@ -48,26 +48,105 @@
 
     <section class="testimoni-card reveal">
 
-        <h1>Pendapat Mereka Tentang Kita</h1>
+        <h1>Pendapat Mereka Tentang Kami</h1>
+        <p class="testi-subtitle">
+            Kepuasan pelanggan adalah prioritas kami. Berikut beberapa ulasan asli dari pelanggan
+            RY Travel melalui WhatsApp.
+        </p>
 
         <div class="testimoni-grid">
 
-            <div class="card-testi">
-                <h2>Nama</h2>
-                <p>Alamat</p>
-                <span>Kesan testimoni</span>
+            <!-- Testimoni 1 -->
+            <div class="testi-card">
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>5.0</span>
+                </div>
+
+                <img src="{{ asset('images/testimoni1.jpg') }}" alt="Testimoni">
+
+                <div class="testi-detail">
+
+                    <p><i class="fa-solid fa-calendar-days"></i> 18 Juli 2026</p>
+
+                    <p><i class="fa-solid fa-van-shuttle"></i> Antar Jemput Bandara</p>
+
+                    <p><i class="fa-solid fa-location-dot"></i> Yogyakarta → YIA</p>
+
+                    <p class="quote">
+                        "Driver ramah, armada bersih, perjalanan nyaman.
+                        Pasti order lagi di RY Travel."
+                    </p>
+
+                </div>
+
             </div>
 
-            <div class="card-testi">
-                <h2>Nama</h2>
-                <p>Alamat</p>
-                <span>Kesan testimoni</span>
+            <!-- Testimoni 2 -->
+            <div class="testi-card">
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>5.0</span>
+                </div>
+
+                <img src="{{ asset('images/testimoni1.jpg') }}" alt="Testimoni">
+
+                <div class="testi-detail">
+
+                    <p><i class="fa-solid fa-calendar-days"></i> 12 Juli 2026</p>
+
+                    <p><i class="fa-solid fa-plane"></i> Antar Jemput Bandara</p>
+
+                    <p><i class="fa-solid fa-location-dot"></i> Bantul → YIA</p>
+
+                    <p class="quote">
+                        "Admin fast respon, driver tepat waktu dan
+                        sangat membantu selama perjalanan."
+                    </p>
+
+                </div>
+
             </div>
 
-            <div class="card-testi">
-                <h2>Nama</h2>
-                <p>Alamat</p>
-                <span>Kesan testimoni</span>
+            <!-- Testimoni 3 -->
+            <div class="testi-card">
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>5.0</span>
+                </div>
+
+                <img src="{{ asset('images/testimoni1.jpg') }}" alt="Testimoni">
+
+                <div class="testi-detail">
+
+                    <p><i class="fa-solid fa-calendar-days"></i> 8 Juli 2026</p>
+
+                    <p><i class="fa-solid fa-route"></i> Travel Bandara</p>
+
+                    <p><i class="fa-solid fa-location-dot"></i> Sleman → YIA</p>
+
+                    <p class="quote">
+                        "Mobil bersih, AC dingin, driver sopan dan
+                        perjalanan terasa nyaman."
+                    </p>
+
+                </div>
+
             </div>
 
         </div>

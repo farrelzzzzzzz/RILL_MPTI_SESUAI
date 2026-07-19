@@ -55,12 +55,13 @@
 
                 <p>
                     <i class="fa-solid fa-location-dot"></i>
-                    Yogyakarta
+                    Jl. Jogja Ring Road Sel. No.1, Gonjen, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa
+                    Yogyakarta 55184
                 </p>
 
                 <p>
                     <i class="fa-solid fa-phone"></i>
-                    08xxxxxxxxxx
+                    882-0073-80782
                 </p>
 
                 <p>
