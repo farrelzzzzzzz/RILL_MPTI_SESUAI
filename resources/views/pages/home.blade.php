@@ -157,7 +157,7 @@
             function formatJam(input) {
                 input.addEventListener("input", function () {
 
-                    let value = this.value.replace(/\D/g, '');
+                    let value = this.value.replace (/\D/g, '');
 
                     if (value.length > 2) {
                         value = value.substring(0, 2) + ":" + value.substring(2, 4);
