@@ -83,7 +83,8 @@
                 <h1>Operational Area</h1>
 
                 <p>
-                    Yogyakarta dan sekitarnya.
+                    Jl. Jogja Ring Road Sel. No.1, Gonjen, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa
+                    Yogyakarta 55184
                 </p>
 
             </div>
@@ -92,17 +93,43 @@
 
                 <h1>Contact Info</h1>
 
-                <p>0812-3456-7890</p>
+                <p>0882-0073-80782</p>
                 <p>info@rytravel.com</p>
                 <p>Yogyakarta, Indonesia</p>
 
             </div>
 
-            <div class="info-box">
+            <div class="info-box payment-box">
 
-                <h1>Transfer Bank</h1>
+                <h1>Info Pembayaran</h1>
 
-                <p>Nanti</p>
+                <div class="payment-grid">
+
+                    <div class="payment-card">
+                        <img src="{{ asset('images/BCA.png') }}" alt="BCA">
+                        <h3>Transfer BCA</h3>
+                        <span>a.n. RY Travel</span>
+                    </div>
+
+                    <div class="payment-card">
+                        <img src="{{ asset('images/BRI.png') }}" alt="BRI">
+                        <h3>Transfer BRI</h3>
+                        <span>a.n. RY Travel</span>
+                    </div>
+
+                    <div class="payment-card">
+                        <img src="{{ asset('images/Qris.png') }}" alt="QRIS">
+                        <h3>QRIS</h3>
+                        <span>Scan QR saat pembayaran</span>
+                    </div>
+
+                    <div class="payment-card">
+                        <img src="{{ asset('images/cash.jpg') }}" alt="Cash">
+                        <h3>Cash</h3>
+                        <span>Bayar langsung kepada driver</span>
+                    </div>
+
+                </div>
 
             </div>
 
@@ -117,7 +144,7 @@
 
     </section>
 
-    <a href="https://wa.me/6283866371952" class="wa-button" target="_blank">
+    <a href="https://wa.me/62882007380782" class="wa-button" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
         Tanya Admin
     </a>

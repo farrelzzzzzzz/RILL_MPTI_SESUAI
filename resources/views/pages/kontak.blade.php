@@ -74,7 +74,7 @@
 
     </section>
 
-    <a href="https://wa.me/6283866371952" class="wa-button" target="_blank">
+    <a href="https://wa.me/62882007380782" class="wa-button" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
         Tanya Admin
     </a>

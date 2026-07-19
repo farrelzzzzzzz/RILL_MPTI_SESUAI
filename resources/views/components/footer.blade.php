@@ -70,15 +70,15 @@
 
                 <div class="footer-social-links">
 
-                    <a href="#">
+                    <a href="https://www.instagram.com/travel_bandara_jogja/" target="_blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a href="#">
+                    <a href="https://wa.me/62882007380782" target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
 
-                    <a href="#">
+                    <a href="https://www.tiktok.com/@antarjemputbandara.yia" target="_blank">
                         <i class="fa-brands fa-tiktok"></i>
                     </a>
 
