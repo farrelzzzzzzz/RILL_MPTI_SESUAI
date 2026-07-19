@@ -137,7 +137,7 @@
 
                     <p><i class="fa-solid fa-route"></i> Travel Bandara</p>
 
-                    <p><i class="fa-solid fa-location-dot"></i> Sleman → YIA</p>
+                    <p><i class="fa-solid fa-location-dot"></i> YIA → Semarang</p>
 
                     <p class="quote">
                         "haloo kak, sudah di anter dgn aman dan nyaman, terima kasih banyak yaa kak, driver nya jga okee
