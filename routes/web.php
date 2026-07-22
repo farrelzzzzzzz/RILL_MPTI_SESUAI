@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ChatbotController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
 
@@ -44,3 +45,7 @@ Route::get(
     [OrderController::class, 'sendWa']
 )
     ->name('order.send');
+
+Route::post('/chatbot', [ChatbotController::class, 'chat']);
+
+Route::view('/test-chat', 'test-chat');

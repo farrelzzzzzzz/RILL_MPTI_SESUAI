@@ -1,30 +1,40 @@
 <!-- Scripts -->
-<script src="{{ asset('js/script.js') }}"></script>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
         // Mobile Menu Toggle
         const hamburger = document.querySelector('.hamburger');
         const navMenu = document.querySelector('.nav-menu');
 
         if (hamburger) {
-            hamburger.addEventListener('click', function() {
+            hamburger.addEventListener('click', function () {
                 navMenu.classList.toggle('active');
                 this.classList.toggle('active');
             });
         }
 
         // Close menu when clicking outside
-        document.addEventListener('click', function(event) {
-            const isClickInside = navMenu.contains(event.target) || hamburger.contains(event.target);
+        document.addEventListener('click', function (event) {
+
+            if (!hamburger || !navMenu) {
+                return;
+            }
+
+            const isClickInside =
+                navMenu.contains(event.target) ||
+                hamburger.contains(event.target);
+
             if (!isClickInside && navMenu.classList.contains('active')) {
+
                 navMenu.classList.remove('active');
                 hamburger.classList.remove('active');
+
             }
+
         });
 
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 const href = this.getAttribute('href');
                 if (href !== '#') {
                     e.preventDefault();
